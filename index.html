@@ -14,6 +14,76 @@
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo2.png" alt="Logo" height="40">
+        </a>
+        <span class="navbar-brand mb-0 h1 fs-1">Doom Scroller</span>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Play</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Welcome to Doom Scroller!</h1>
+        <p class="col-md-8 fs-4">
+            Click to play!
+        </p>
+        <button onclick="window.location.href='login.html'" class="btn btn-danger btn-lg" type="button">
+            Login / Signup
+        </button>
+    </div>
+</div>
+
+<div class="container my-4">
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/playnow.png" class="card-img-top img-contain" alt="Play now">
+                <div class="card-body">
+                    <h5 class="card-title">Play now</h5>
+                    <p class="card-text">Click here to start a challenge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/highscore.png" class="card-img-top" alt="Hike 2">
+                <div class="card-body">
+                    <h5 class="card-title">High scores</h5>
+                    <p class="card-text">Click here to explore records within the game.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/aboutus.png" class="card-img-top" alt="Hike 3">
+                <div class="card-body">
+                    <h5 class="card-title">How to play</h5>
+                    <p class="card-text">Click this card to learn about game play.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
     <!------------------------------>
     <!-- Your HTML Layout go here -->
@@ -26,7 +96,7 @@
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
